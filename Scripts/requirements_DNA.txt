@@ -1,0 +1,9 @@
+# Match the versions used by your DNA training environment wherever possible.
+# Install PyTorch separately with the correct CUDA build. AF3 uses its own environment.
+numpy
+pandas
+biopython==1.86
+xgboost==3.1.1
+py4cytoscape
+fair-esm
+# torch: install/keep your GPU-compatible build rather than replacing it blindly.
